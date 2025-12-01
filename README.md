@@ -1,2 +1,19 @@
-# Zyotra
-Zyotra is a modern SaaS platform that simplifies VPS management and app deployment. Developers can add a VPS via IP &amp; credentials (or SSH key), bootstrap the server, deploy apps from Git, manage environment variables, monitor logs, and rollback changes — all through an intuitive web UI.
+# Zyotra — Automated VPS Deployment
+
+Zyotra makes VPS deployment effortless. Add your VPS via IP or SSH, bootstrap it, deploy apps from Git, manage environment variables, monitor logs, and rollback — all through a simple web UI.
+
+Features:
+
+One-click VPS provisioning
+
+Git-based deployments
+
+SSL automation
+
+Real-time logs & rollback
+
+Multi-server & team support
+
+Encrypted credentials
+
+Tech Stack: Next.js + Tailwind | Bun + Elysia | PostgreSQL | Redis + BullMQ | Cloudflare R2/S3
