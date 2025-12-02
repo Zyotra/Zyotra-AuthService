@@ -1,0 +1,31 @@
+{
+  "name": "zyotra-auth-service",
+  "version": "1.0.0",
+  "description": "Authentication microservice for Zyotra VPS deployment platform",
+  "author": "Zyotra Team",
+  "license": "MIT",
+  "scripts": {
+    "dev": "bun run --watch src/index.ts",
+    "start": "bun run src/index.ts",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "db:push": "drizzle-kit push",
+    "db:studio": "drizzle-kit studio"
+  },
+  "dependencies": {
+    "@types/jsonwebtoken": "^9.0.10",
+    "bcryptjs": "^3.0.3",
+    "dotenv": "^17.2.3",
+    "drizzle-orm": "^0.44.7",
+    "elysia": "latest",
+    "jsonwebtoken": "^9.0.2",
+    "postgres": "^3.4.7"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "bun-types": "latest",
+    "drizzle-kit": "^0.31.7"
+  },
+  "module": "src/index.js",
+  "type": "module"
+}
