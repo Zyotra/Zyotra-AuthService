@@ -30,7 +30,7 @@ const checkAuthPlugin = new Elysia()
     .guard({
         beforeHandle: async ({ userId, set }:Context | any) => {
             if(!userId){
-                set.status = StatusCode.UNAUTHORIZED
+                set.status = StatusCode.EXPIRED_TOKEN
                 return {
                     message: "Unauthorized"
                 }
